@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-data_file = "C4_LS.txt"
+data_file = "data.txt"
 x, y, y_err = np.loadtxt(data_file, delimiter=',', unpack=True)
 
 weights = 1 / y_err**2
